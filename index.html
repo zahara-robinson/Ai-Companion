@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My AI Companion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="sidebar">
+      <div class="character-area">
+        <div class="character-placeholder">★</div>
+        <h2>Airi</h2>
+        <p class="status">Awake and waiting</p>
+      </div>
+    </div>
+
+    <div class="main-panel">
+      <header class="top-bar">
+        <h1>Desktop Companion</h1>
+      </header>
+
+      <main class="chat-container" id="chatContainer">
+        <div class="message ai">
+          <div class="bubble" id="startupGreeting">...</div>
+        </div>
+      </main>
+
+      <form class="input-area" id="chatForm">
+        <input
+          type="text"
+          id="userInput"
+          placeholder="Talk to her..."
+          autocomplete="off"
+        />
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
