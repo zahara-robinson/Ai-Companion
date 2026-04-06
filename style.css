@@ -1,0 +1,22 @@
+.top-bar {
+  padding: 18px 20px;
+  border-bottom: 1px solid #2f3240;
+  background: #181a22;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clear-btn {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 10px;
+  background: #2d3142;
+  color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.clear-btn:hover {
+  opacity: 0.9;
+}
