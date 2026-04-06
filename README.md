@@ -1,4 +1,4 @@
-‧₊˚ ⏾. ⋅ Airi - A personal AI companion.
+# ‧₊˚ ⏾. ⋅ Airi - A personal AI companion.
 
 Airi is a personal AI desktop companion built using Electron and the OpenAI API.  
 The application simulates a character-driven assistant that can hold conversations, adapt its tone, and remember user-specific information over time.
